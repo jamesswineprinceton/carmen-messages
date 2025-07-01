@@ -10,11 +10,11 @@ client = Client(account_sid, auth_token)
 
 message = client.messages.create(
     body="This is the ship that made the Kessel Run in fourteen parsecs?",
-    from_="+15017122661",
+    from_="+18776935917",
     media_url=[
-        "https://www.dropbox.com/scl/fi/efvdh7uuzipecnh7f3ceb/Image-1.mov?"
+        "https://jamesswineprinceton.github.io/carmen-messages/videos/1.mp4"
     ],
-    to="+15558675310",
+    to="+17063664031",
 )
 
 print(message.body)
